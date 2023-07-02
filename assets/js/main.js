@@ -89,3 +89,11 @@ sr.reveal(".qualification__footer-text, .contact__content", {
 });
 
 sr.reveal(".qualification__footer .btn, .contact__btn", { origin: "right" });
+//to download resume
+function downloadResume() {
+  var link = document.createElement("a");
+  link.href =
+    "https://drive.google.com/u/0/uc?id=1YBxn65c8yO1teVIKqenkQxNp_jRwnDLO&export=download";
+  link.download = "resume.pdf";
+  link.click();
+}
