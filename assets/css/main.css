@@ -3,7 +3,7 @@
   ____________________*/
   --color-primary: #25ab75;
   --color-primary-dark: #208c61;
-  --color-bg-primary: #dcdcdc;
+  --color-bg-primary: #cecece;
   --color-bg-secondary: #242424;
   --color-bg-footer: #151515;
   --color-white: #ffffff;
@@ -740,4 +740,7 @@ body {
   .footer__wrapper {
     grid-template-columns: repeat(3, 1fr);
   }
+}
+.ri-briefcase-line {
+  color: var(--color-primary);
 }
